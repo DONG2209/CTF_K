@@ -1,6 +1,8 @@
 # Overview 
 20 points
+
 Category: [General Skills]()
+
 AUTHOR: SYREAL
 
 # Description
@@ -18,4 +20,5 @@ Using tabcomplete in the Terminal will add years to your life, esp. when dealing
     => fang-of-haynekhtnamet
 - Run :
   > **./fang-of-haynekhtnamet** 
-  => *ZAP!* picoCTF{l3v3l_up!_t4k3_4_r35t!_6f332f10}
+
+  >*ZAP!* picoCTF{l3v3l_up!_t4k3_4_r35t!_6f332f10}

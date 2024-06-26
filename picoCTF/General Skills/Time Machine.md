@@ -1,5 +1,6 @@
 # Overview 
 Category: [General Skills]()
+
 AUTHOR: JEFFERY JOHN
 
 # Description
@@ -18,6 +19,7 @@ I opened the file with Visual Studio Code and found Flag in Commit ^. ^
 <img src="https://imgur.com/rohFf0b">
 
 See detailed information about a commit of Master in Repository Git.
+
 E65FEDB3A72A16C577F4B17023B63997134B307D: This is the hash code of Commit
 >git show e65fedb3a72a16c577f4b17023b63997134b307d
 

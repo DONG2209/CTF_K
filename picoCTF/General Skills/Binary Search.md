@@ -1,5 +1,6 @@
 # Overview 
 Category: [General Skills]()
+
 AUTHOR: JEFFERY JOHN
 
 # Description
@@ -26,15 +27,16 @@ Principles of the Binary Search Algorithm
   + If the value at the middle index is less than the target value, adjust the search range to the upper half of the array (i.e., from `mid + 1` to `high`).
   
 Run:
-> Enter your guess: 500
-Higher! Try again.
-Enter your guess: 750
-Higher! Try again.
-Enter your guess: 875
-Lower! Try again.
-Enter your guess: 812
-Lower! Try again.
-Enter your guess: 781                                                                               
-Congratulations! You guessed the correct number: 781                                                
-Here's your flag: picoCTF{g00d_gu355_6dcfb67c}                                                      
-Connection to atlas.picoctf.net closed.      
+
+    Enter your guess: 500
+    Higher! Try again.
+    Enter your guess: 750
+    Higher! Try again.
+    Enter your guess: 875
+    Lower! Try again.
+    Enter your guess: 812
+    Lower! Try again.
+    Enter your guess: 781                                                                               
+    Congratulations! You guessed the correct number: 781                                                
+    Here's your flag: picoCTF{g00d_gu355_6dcfb67c}                                                      
+    Connection to atlas.picoctf.net closed.      

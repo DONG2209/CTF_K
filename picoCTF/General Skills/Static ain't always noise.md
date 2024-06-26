@@ -1,6 +1,8 @@
 # Overview 
 20 points
+
 Category: [General Skills]()
+
 AUTHOR: SYREAL
 
 # Description
@@ -13,4 +15,5 @@ Can you look at the data in this binary: static? This BASH script might help!
   > **chmod +x static** 
 - Run file and find flag :
   > **strings static | grep pico**
-  => picoCTF{d15a5m_t34s3r_f5aeda17}
+
+  >=> picoCTF{d15a5m_t34s3r_f5aeda17}
