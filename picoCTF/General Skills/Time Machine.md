@@ -12,11 +12,12 @@ What was I last working on? I remember writing a note to help me remember...
   
 I opened the file with Visual Studio Code and found Flag in Commit ^. ^
 
-<img src="https://imgur.com/6VfH3zA">
+<img src="https://i.imgur.com/6VfH3zA.png">
+
 
 - **Method 2**
 
-<img src="https://imgur.com/gJysNmV">
+<img src="https://i.imgur.com/gJysNmV.png">
 
 See detailed information about a commit of Master in Repository Git.
 
