@@ -9,8 +9,9 @@ Additional details will be available after launching your challenge instance.
 
 # Solution
 - **we're going to start by exploring the leaked information from the initial server by netcatting that host and port**
-  
+- 
     ┌──(kali㉿kali)-[/]
+
     └─$ nc tethys.picoctf.net 64478
 
 SSH-2.0-OpenSSH_7.6p1 My_Passw@rd_@1234
@@ -20,6 +21,7 @@ SSH-2.0-OpenSSH_7.6p1 My_Passw@rd_@1234
   So now we have a password, we can see what it comes. We will step through a bit of questions and answers available on Google.
 
     ┌──(kali㉿kali)-[/] 
+    
     └─$ nc tethys.picoctf.net 54610      
 
 
