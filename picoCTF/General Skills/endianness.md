@@ -8,7 +8,7 @@ Know of little and big endian?
 
 # Solution
 First connected to the server: 
-> NC titan.picoctf.net 61087
+> nc titan.picoctf.net 61087
 
 After that, you will receive a word, in this case "Yzewx". By using [Cyberchef]("https://cyberchef.org/"), converts from this to HEX form. This will give you how to express the big endian of this word.
 
