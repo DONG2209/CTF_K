@@ -10,7 +10,7 @@ Know of little and big endian?
 First connected to the server: 
 > nc titan.picoctf.net 61087
 
-After that, you will receive a word, in this case "Yzewx". By using [Cyberchef]("https://cyberchef.org/") , converts from this to HEX form. This will give you how to express the big endian of this word.
+After that, you will receive a word, in this case "Yzewx". By using [Cyberchef](https://cyberchef.org/) , converts from this to HEX form. This will give you how to express the big endian of this word.
 
 Convert BIG ENDIAN ⇔ LITTLE ENDIAN : [here](https://www.save-editor.com/tools/wse_hex.html#littleendian) 
 
