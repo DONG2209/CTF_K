@@ -14,6 +14,7 @@ Welcome to the Binary Challenge!"
 Your task is to perform the unique operations in the given order and find the final result in hexadecimal that yields the flag.
 
 Binary Number 1: 01101101
+
 Binary Number 2: 00111010
 
 
@@ -60,9 +61,15 @@ Binary Number 2: 00111010
 **picoCTF{b1tw^3se_0p3eR@tI0n_su33essFuL_675602ae}**
 
 **Notes**
+
 AND : &
+
 OR : |
+
 XOR : ^
+
 NOT : ~
+
 Left Shift : <<
+
 Right Shift: >>

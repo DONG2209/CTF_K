@@ -8,7 +8,7 @@ There's an interesting script in the user's home directory
 
 # Solution
 
->ssh picoplayer@saturn.picoctf.net -p61245
+>ssh picoplayer@saturn.picoctf.net -p 61245
 
 Welcome to Ubuntu 20.04.6 LTS (GNU/Linux 6.5.0-1016-aws x86_64)
 
@@ -23,11 +23,9 @@ individual files in /usr/share/doc/*/copyright.
 Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
 applicable law.
 
->picoplayer@challenge:~$ ls
-
->useless
-
->picoplayer@challenge:~$ cat useless
+    picoplayer@challenge:~$ ls
+    useless
+    picoplayer@challenge:~$ cat useless
 
     #!/bin/bash
     \# Basic mathematical operations via command-line arguments
