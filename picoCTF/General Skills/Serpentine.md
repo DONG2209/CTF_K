@@ -9,7 +9,7 @@ Find the flag in the Python script!
 # Solution
 - Run script :
   
-def str_xor(secret, key):
+>def str_xor(secret, key):
     new_key = key
     i = 0
     while len(new_key) < len(secret):

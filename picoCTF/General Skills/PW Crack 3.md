@@ -15,31 +15,47 @@ There are 7 potential passwords with 1 being correct. You can find these by exam
     import hashlib
 
     def str_xor(secret, key):
+
         new_key = key
+
         i = 0
+
         while len(new_key) < len(secret):
             new_key += key[i]
+
             i = (i + 1) % len(key)
+
         return "".join([chr(ord(secret_c) ^ ord(new_key_c)) for (secret_c, new_key_c) in zip(secret, new_key)])
 
     flag_enc = open('level3.flag.txt.enc', 'rb').read()
+
     correct_pw_hash = open('level3.hash.bin', 'rb').read()
 
     def hash_pw(pw_str):
+
         pw_bytes = bytearray()
+
         pw_bytes.extend(pw_str.encode())
+
         m = hashlib.md5()
+
         m.update(pw_bytes)
+
         return m.digest()
 
     pos_pw_list = ["8799", "d3ab", "1ea2", "acaf", "2295", "a9de", "6f3d"]
 
     def find_correct_password():
+
         for password in pos_pw_list:
+
             if hash_pw(password) == correct_pw_hash:
+
                 print(f"Correct password found: {password}")
                 decryption = str_xor(flag_enc.decode(), password)
+
                 print(f"Decrypted flag: {decryption}")
+                
                 return
 
     find_correct_password()
