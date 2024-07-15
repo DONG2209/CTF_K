@@ -8,14 +8,14 @@ Fix the syntax error in the Python script to print the flag.
 
 # Solution
 - We can easily see the missing "=" sign in the if comparison
-```
+```python
 if flag = "":
   print('String XOR encountered a problem, quitting.')
 else:
   print('That is correct! Here\'s your flag: ' + flag)
 ```
 - Correct: 
-```
+```python
 if flag == "":
   print('String XOR encountered a problem, quitting.')
 else:

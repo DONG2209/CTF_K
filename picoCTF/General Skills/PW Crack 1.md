@@ -10,7 +10,7 @@ Download the password checker here and you'll need the encrypted flag in the sam
 # Solution
 - Looking at the code, we already know the password (user_pw)
 - Script decode:
-```
+```python
 def str_xor(secret, key):
     new_key = key
     i = 0

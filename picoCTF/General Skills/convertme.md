@@ -22,7 +22,7 @@ That is correct! Here's your flag: picoCTF{4ll_y0ur_b4535_9c3b7d4d}
 ```
 ## Method 2
 - We can get the flag through editing the code :
-```
+```python
 import random
 
 def str_xor(secret, key):

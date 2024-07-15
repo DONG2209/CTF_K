@@ -11,7 +11,7 @@ There are 7 potential passwords with 1 being correct. You can find these by exam
 # Solution
 - As we can see, the password is hashed and then compared with the hash file. We also have a list of possible passwords (pos_pw_list). We can try to crack the password using a list of possible passwords. We can use hashlib library to hash passwords and compare them with hash file.
 - Script decode:
-```
+```python
 import hashlib
 
  def str_xor(secret, key):
