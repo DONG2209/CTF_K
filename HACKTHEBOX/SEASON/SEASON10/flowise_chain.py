@@ -1,4 +1,6 @@
 # Flowise CVE-2025-58434 + CVE-2025-59528 exploit script - password reset + API key extraction + RCE via customMCP
+__author__ = "DongNQ"
+__X__ = "https://x.com/Xalahehe"
 
 import requests
 def get_reset_token(target, email, session):
